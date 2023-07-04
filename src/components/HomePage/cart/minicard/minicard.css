@@ -1,0 +1,49 @@
+.minicard {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: space-between;
+}
+.img-minicards {
+  width: 50px;
+  height: 45px;
+}
+.minicard-img {
+  width: 50px;
+  background-color: var(--grey-20);
+  height: 45px;
+}
+.minicard-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 5px;
+}
+.minicard-container {
+  display: flex;
+}
+.minicard-content h3 {
+  margin-top: 5px;
+  font-size: 12px;
+}
+.minicard-content p {
+  font-size: 11px;
+}
+.x {
+  display: flex;
+  gap: 5px;
+}
+.x p {
+  margin-top: 7px;
+  color: var(--color-primary);
+}
+.minicard-btn {
+  padding: 0px 0px;
+  justify-content: flex-end;
+  background-color: var(--grey-0);
+  color: var(--grey-50);
+  border: none;
+}
+.hidden {
+  color: var(--grey-0);
+}
